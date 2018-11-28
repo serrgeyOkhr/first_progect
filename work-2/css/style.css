@@ -1,0 +1,87 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #f6f6f6;
+  width: 100%;
+  margin: 0px;
+}
+
+.container {
+  background-color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -401.5px;
+  margin-left: -806px;
+  display: inline-block;
+  max-width: 1612px;
+  width: 100%;
+  max-height: 803px;
+  height: 100%;
+  padding: 10px;
+}
+
+.img {
+  display: inline-block;
+  position: relative;
+  width: 50%;
+  max-width: 825px;
+  height: 100%;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -300px;
+  margin-left: -300px;
+  max-width: 600px;
+  width: 100%;
+  max-height: 600px;
+  height: 100%;
+}
+
+.Txt {
+  display: inline-block;
+  width: 50%;
+  vertical-align: middle;
+  right: 0px;
+}
+
+.hedder {
+  font-family: Arial;
+  font-size: 36pt;
+  font-weight: bold;
+}
+
+.text {
+  font-family: Arial;
+  font-size: 22pt;
+  margin-bottom: 80px;
+}
+
+.text1 {
+  font-family: Arial;
+  font-size: 22pt;
+}
+
+.chek {
+  font-family: Arial;
+  font-size: 48pt;
+  margin-top: 20px;
+}
+
+.btn {
+  width: 400px;
+  height: 80px;
+  font-family: Arial;
+  font-size: 24pt;
+  background-color: #ec744a;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */

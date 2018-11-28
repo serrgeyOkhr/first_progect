@@ -1,0 +1,48 @@
+
+
+.getoffer
+  background: #373737 url(../img/getoffer_bg.jpg) center 20% no-repeat
+  z-index: 2
+  position: relative
+  height: 410px
+  display: flex
+  align-items: center
+  &::before
+    content: ''
+    display: block
+    position: absolute
+    left: 0
+    top: 0
+    width: 100%
+    height: 100%
+    background-color: rgba(0, 0, 0, 0.6)
+    z-index: 0
+  &_content
+    display: flex
+    flex-direction: column
+    align-items: center
+  &_header
+    font-size: 32px
+    text-align: center
+    color: $Text_color_light
+    &_small 
+      font-size: 26px 
+  label
+    display: inline-block
+    padding-top: 22px
+    font-size: 20px
+    font-weight: 300
+    color: $Text_color_light
+  &_form
+    text-align: center
+    .small_text
+      color: $Text_color_light
+      display: inline-block
+      font-size: 14px
+      font-weight: 300  
+      margin-top: 10px
+    .input
+      display: block
+          
+
+ 

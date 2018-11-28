@@ -1,0 +1,50 @@
+.map
+  position: relative
+  height: 550px
+  width: 100%
+
+
+.adress
+  border: solid 1px #ffffff
+  border-radius: 5px
+  position: absolute
+  width: 315px
+  height: 390px
+  background-color: #fff
+  z-index: 1
+  padding-left: 64px
+  left: 490px
+  top: 73px
+  padding-top: 35px
+  &_title
+    font-weight: 400
+    color: $Text_color_dark
+  &_place
+    position: relative
+    p
+      font-weight: 300
+
+.addbefore::before
+  content: ""
+  position: absolute
+  width: 20px
+  height: 25px
+  background: url(../img/map/map_icom_point.png) center no-repeat
+  left: -25px
+  top: 0px
+.addbefore2::before
+  content: ""
+  position: absolute
+  width: 20px
+  height: 25px
+  background: url(../img/map/map_icon_phone.png) center no-repeat
+  left: -25px
+  top: 109px
+.addbefore3::before
+  content: ""
+  position: absolute
+  width: 20px
+  height: 25px
+  background: url(../img/map/map_icon_mail.png) center no-repeat
+  left: -25px
+  top: 240px

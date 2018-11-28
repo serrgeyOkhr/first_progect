@@ -1,0 +1,134 @@
+.slider
+  height: 377px
+  //size: cover
+  margin-top: 87px
+ 
+  &_img
+    background-size: cover
+    vertical-align: middle
+    width: 534px
+    
+
+.show_slide
+  height: 377px
+  
+  img
+    //width: 100%
+    height: 100%
+    object-fit: cover
+
+
+
+
+
+
+.production
+  margin-bottom: 92px
+  &_header
+    font-size: 28px
+    height: 62px
+    line-height: 62px
+    background-color: $Button_color
+    margin-left: -29px
+    margin-top: 106px
+    padding-left: 30px
+    color: $Text_color_light
+  &_text
+    font-size: 16px
+    font-weight: 300
+    hyphens: auto
+    text-align: justify
+    word-wrap: break-word
+  .container
+    .row
+      .col-7
+        padding: 0
+
+.slider_main_2
+  padding: 0 27px
+  width: 535px
+  display: inline-block
+  margin-top: 13px
+  
+  .slick-slide
+    position: relative
+    width: 120px
+    opacity: 1
+    &:focus
+      outline: none
+    &::before
+        content: ""
+        position: absolute
+        left: 4px
+        width: 94%
+        height: 96%
+        background-color: rgba(0, 0, 0, 0.6)
+  .slick-active
+    &::before
+      content: ""
+      position: absolute
+      left: 4px
+      width: 94%
+      height: 96%
+      background-color: rgba(0, 0, 0, 0.0)
+  
+
+.show_slide-2
+  height: 78px
+  width: 116px
+  padding: 0 5px
+  img
+    width: 116px
+    height: 100%
+    object-fit: cover
+    opacity: 1
+
+.slick-next
+  background-color: #ffffff
+  //position: relative
+  //display: block
+  height: 77px
+  width: 22px
+  right: 0
+  border: solid 1px $Button_color
+  margin-top: -2px
+  &-2
+    right: -27px
+    &::before
+      content: ""
+      display: block
+      position: absolute
+      width: 6px
+      height: 19px
+      background: url(../img/arrow-right.png)
+      left: 50%
+      top: 50%
+      transform: translateX(-50%)  translateY(-50%)
+
+    &:hover
+      background-color: $Button_color
+      &::before
+        background: url(../img/arrow-right-active.png)
+      
+.slick-prev
+  background-color: #ffffff
+  height: 77px
+  width: 22px
+  right: 0
+  border: solid 1px $Button_color
+  margin-top: -2px
+  &-2
+    &::before
+      content: ""
+      display: block
+      position: absolute
+      width: 6px
+      height: 19px
+      background: url(../img/arrow-left.png)
+      left: 50%
+      top: 50%
+      transform: translateX(-50%)  translateY(-50%)
+    &:hover
+      background-color: $Button_color
+      &::before
+        background: url(../img/arrow-left-active.png)

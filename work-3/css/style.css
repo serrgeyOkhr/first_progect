@@ -1,0 +1,243 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 1366px;
+  background-color: #fff;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hedder {
+  margin: 0px 113px 0 113px;
+  height: 803px;
+  padding-top: 77px;
+}
+
+.img {
+  display: inline-block;
+  margin-right: 75px;
+}
+
+.Htext {
+  display: inline-block;
+  vertical-align: top;
+  width: 526px;
+  font-family: Tahoma;
+}
+
+h1 {
+  font-size: 48px;
+  margin: 0;
+  height: 105px;
+  padding-top: 60px;
+}
+
+.hedderh2 {
+  padding-top: 14px;
+  margin: 0px;
+  font-size: 30px;
+  font-weight: normal;
+  font-family: Tahoma;
+}
+
+.regt {
+  margin: 0px;
+  padding-top: 35px;
+  font-size: 18px;
+}
+
+.mon {
+  font-size: 48px;
+  margin: 0px;
+  height: 97px;
+  vertical-align: baseline;
+  padding-top: 39px;
+}
+
+.btn1 {
+  margin-top: 53px;
+  height: 67px;
+  width: 175px;
+  background-color: #f15921;
+  border: 0;
+  font-size: 24px;
+  color: #fff;
+  border-radius: 5px;
+  font-family: Tahoma;
+  font-weight: bold;
+  margin-right: 40px;
+}
+
+.btn2 {
+  margin-top: 53px;
+  height: 67px;
+  width: 287px;
+  background-color: #ffffff;
+  border: solid 2px;
+  font-size: 24px;
+  color: #f05a22;
+  border-radius: 5px;
+  font-family: Tahoma;
+  font-weight: bold;
+}
+
+.main {
+  width: 100%;
+  height: 408px;
+  background-color: #f2f2f2;
+  position: relative;
+}
+
+.mainh2 {
+  padding-top: 14px;
+  margin: 0px;
+  font-size: 30px;
+  font-family: Tahoma;
+  height: 115px;
+  padding-top: 80px;
+  text-align: center;
+  width: 100%;
+}
+
+.block1 {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  margin-top: -19px;
+  margin-left: 159px;
+  text-align: center;
+  width: 163px;
+}
+
+.block2 {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  margin-top: -19px;
+  margin-left: 418px;
+  width: 241px;
+}
+
+.block3 {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  width: 173px;
+  margin-top: -19px;
+  margin-left: 741px;
+}
+
+.block4 {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  margin-top: -19px;
+  margin-left: 1042px;
+  width: 172px;
+}
+
+.maintxt {
+  text-align: center;
+  font-size: 18px;
+  font-family: OpenSans;
+}
+
+.icon2 {
+  padding: 6px;
+}
+
+.icon3 {
+  padding: 7px;
+}
+
+.icon4 {
+  padding: 5px;
+}
+
+.plase {
+  vertical-align: middle;
+  display: inline-block;
+  margin: auto;
+  width: 25%;
+  padding: 40px 15px;
+}
+
+.plase1 {
+  position: absolute;
+  display: inline-block;
+  margin-left: 113px;
+  margin-right: 113px;
+  margin-top: 70px;
+  width: 1137px;
+}
+
+.plase1-5 {
+  position: absolute;
+  display: inline-block;
+  margin-left: 113px;
+  margin-right: 113px;
+  width: 1137px;
+}
+
+.plase2 {
+  vertical-align: middle;
+  display: inline-block;
+  margin: auto;
+  width: 25%;
+  padding: 40px 15px 40px 0px;
+}
+
+.plase3 {
+  vertical-align: middle;
+  display: inline-block;
+  margin: auto;
+  width: 25%;
+  padding: 40px 0px 40px 15px;
+}
+
+.footer {
+  display: inline-block;
+  width: 1140px;
+}
+
+.plase4 {
+  vertical-align: middle;
+  display: inline-block;
+  margin-top: 370px;
+  width: 25%;
+  padding: 40px 15px 40px 15px;
+}
+
+.plase2-5 {
+  vertical-align: middle;
+  display: inline-block;
+  margin: auto;
+  width: 25%;
+  margin-top: 370px;
+  padding: 40px 15px 40px 0px;
+}
+
+.plase3-5 {
+  vertical-align: middle;
+  display: inline-block;
+  margin: auto;
+  width: 25%;
+  padding: 40px 0px 40px 15px;
+  margin-top: 370px;
+}
+
+.footerh2 {
+  padding-top: 14px;
+  margin: 0px;
+  font-size: 30px;
+  font-family: Tahoma;
+  height: 115px;
+  padding-top: 80px;
+  text-align: center;
+  width: 1366px;
+}
+/*# sourceMappingURL=style.css.map */

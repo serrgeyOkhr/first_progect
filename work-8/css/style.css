@@ -1,0 +1,155 @@
+@charset "UTF-8";
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Slab', serif;
+}
+
+.section {
+  width: 100%;
+  background: -webkit-gradient(linear, left top, right top, from(#c1f0f3), color-stop(#c1f0f3), to(#ffffff));
+  background: linear-gradient(to right, #c1f0f3, #c1f0f3, #ffffff);
+  z-index: -1;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 100%;
+  position: relative;
+}
+
+.bg {
+  background-image: url("/Курс web-разработчик/work-8/imagine/woman-no-tooths.png");
+  height: 780px;
+  float: right;
+  width: 30%;
+  background-repeat: no-repeat;
+  overflow: auto;
+  z-index: 0;
+  background-size: 100% auto;
+  -webkit-transform: translateX(-126px) translateY(36px);
+          transform: translateX(-126px) translateY(36px);
+}
+
+.bg::befor {
+  content: '';
+  width: 100%;
+}
+
+.main {
+  padding-top: 181px;
+  width: 1140px;
+  margin: auto;
+}
+
+.main img {
+  position: relative;
+  float: right;
+  top: -146px;
+  left: -131px;
+}
+
+.main__header h1 {
+  font-size: 60px;
+  margin: 0;
+  margin-left: -1px;
+  font-weight: bold;
+  color: #7c6db0;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  line-height: 59px;
+}
+
+.main__header_help {
+  position: relative;
+  height: 70px;
+  width: 409px;
+  background-color: #7f70b1;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+  margin-top: 38px;
+  margin-left: 2px;
+}
+
+.main__header_help span {
+  position: relative;
+  top: 7px;
+  left: 1px;
+}
+
+.main__part {
+  padding-top: 94px;
+  padding-bottom: 118px;
+  height: 60px;
+}
+
+.main__text {
+  font-size: 22px;
+  width: 282px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  float: left;
+  line-height: 1.4;
+  margin-left: -5px;
+  -webkit-font-kerning: normal;
+          font-kerning: normal;
+}
+
+.icon {
+  float: left;
+  position: relative;
+  left: 130px;
+  top: 145px;
+  margin-right: 39px;
+  margin-left: 10px;
+}
+
+.btn {
+  height: 80px;
+  width: 360px;
+  margin-right: 23px;
+  margin-left: 4px;
+  border-style: none;
+  background: -webkit-gradient(linear, left top, right top, from(#01c4e0), to(#01b3e0));
+  background: linear-gradient(to right, #01c4e0, #01b3e0);
+  font-family: 'Roboto Slab', serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-top: 60px;
+  text-align: center;
+  margin-bottom: 60px;
+  -webkit-box-shadow: 1px 1px 10px #7ceefe;
+          box-shadow: 1px 1px 10px #7ceefe;
+  z-index: 1;
+}
+
+.btn span {
+  position: relative;
+  left: 6px;
+  top: -3px;
+}
+
+.btn2 {
+  background: transparent;
+  border-style: solid;
+  border-color: #01c4e0;
+  color: #01b3e0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.btn2 span {
+  position: relative;
+  left: 0;
+  top: -3px;
+}
+/*# sourceMappingURL=style.css.map */

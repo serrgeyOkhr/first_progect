@@ -1,0 +1,201 @@
+.popup
+  position: fixed
+  top: 0
+  width: 100%
+  background-color: rgba(0, 0, 0, 0.8)
+  height: 100%
+  z-index: 3
+  display: none
+  @media screen and (min-width: 970px)
+    &_wrap_form
+      height: 345px
+      width: 752px
+      background: #fff
+      position: relative
+      top: 100px
+      left: 50%
+      transform: translateX(-50%) 
+      background: #373737 url(../img/bg_popup_form.jpg) 32% 26% no-repeat 
+      background-size: 230%
+      &_content
+        background-color: #fff
+      &_close
+        font-size: 28px
+        font-weight: 300
+        position: absolute
+        top: -30px
+        right: -18px
+        color: #fff
+        cursor: pointer  
+        margin: 0
+        padding: 0  
+        user-select: none
+      &_header
+        height: 68px
+        background-color: $Button_color
+        color: $Text_color_light
+        line-height: 68px
+        text-align: center
+        font-size: 21px
+        text-transform: uppercase
+      &_text
+        text-align: center
+        margin-top: 36px
+        font-size: 24px
+        color: $Text_color_light
+        label
+          display: inline-block
+          padding-top: 22px
+          font-size: 20px
+          font-weight: 300
+          color: $Text_color_light
+        span
+          font-size: 30px
+          font-weight: normal
+      &_mainform
+        display: flex
+        justify-content: center
+        .input
+          width: 365px
+          margin-right: 16px
+
+        .button
+          width: 180px
+        .small_text
+          color: $Text_color_light
+          font-size: 14px
+          font-weight: 300 
+          text-align: center
+  @media screen and (max-width: 969px)
+     &_wrap_form
+      //height: 345px
+      width: 90%
+      background: #fff
+      position: relative
+      top: 100px
+      left: 50%
+      transform: translateX(-50%) 
+      background: #373737 url(../img/bg_popup_form.jpg) 32% 26% no-repeat 
+      background-size: cover
+      &_content
+        background-color: #fff
+      &_close
+        font-size: 28px
+        font-weight: 300
+        position: absolute
+        top: -30px
+        right: -18px
+        color: #fff
+        cursor: pointer  
+        margin: 0
+        padding: 0  
+        user-select: none
+      &_header
+        height: 68px
+        background-color: $Button_color
+        color: $Text_color_light
+        line-height: 68px
+        text-align: center
+        font-size: 21px
+        text-transform: uppercase
+      &_text
+        text-align: center
+        margin-top: 36px
+        font-size: 24px
+        color: $Text_color_light
+        label
+          display: inline-block
+          padding-top: 22px
+          font-size: 20px
+          font-weight: 300
+          color: $Text_color_light
+        span
+          font-size: 30px
+          font-weight: normal
+      &_mainform
+        display: flex
+        justify-content: center
+        text-align: left
+        margin: 0 7px
+        .input
+          width: 280px
+          margin-right: 16px
+
+        .button
+          width: 180px
+        .small_text
+          color: $Text_color_light
+          font-size: 14px
+          font-weight: 300 
+          text-align: center
+          margin-bottom: 15px
+          margin-top: 15px
+  @media screen and (max-width: 533px)
+     &_wrap_form
+      
+      width: 90%
+      background: #fff
+      position: absolute
+      top: 50%
+      left: 50%
+      transform: translateX(-50%) translateY(-50%)
+      background: #373737 url(../img/bg_popup_form.jpg) 32% 26% no-repeat 
+      background-size: cover
+      
+      &_close
+        font-size: 26px
+        font-weight: 300
+        position: absolute
+        top: -30px
+        right: -18px
+        color: #fff
+        cursor: pointer  
+        margin: 0
+        padding: 0  
+        user-select: none
+      &_header
+        height: 68px
+        background-color: $Button_color
+        color: $Text_color_light
+        line-height: 68px
+        text-align: center
+        font-size: 19px
+        text-transform: uppercase
+        
+      &_text
+        text-align: center
+        margin-top: 36px
+        font-size: 18px
+        color: $Text_color_light
+        
+        label
+          display: inline-block
+          padding-top: 22px
+          font-size: 16px
+          font-weight: 300
+          color: $Text_color_light
+        
+        span
+          font-size: 23px
+          font-weight: normal
+          display: inline-block
+          margin-bottom: 7px
+      &_mainform
+        display: flex
+        justify-content: center
+        text-align: left
+        margin-left: 40px
+        .input
+          width: 280px
+          margin-right: 16px
+
+        .button
+          width: 180px
+        .small_text
+          color: $Text_color_light
+          font-size: 14px
+          font-weight: 300 
+          text-align: center
+          margin-bottom: 15px
+          margin-top: 15px
+          margin-left: -20px

@@ -1,0 +1,142 @@
+$BG_color: #c1f0f3
+$button__color: #01c4e0
+*
+  box-sizing: border-box
+
+  body
+    margin: 0
+    padding: 0
+    font-family: 'Roboto Slab', serif
+
+.section
+  width: 100%
+  //background-image: url("/Курс web-разработчик/work-8/imagine/Безимени-1.jpg")
+  background: linear-gradient(to right, darken($BG_color, 0), $BG_color, #ffffff)
+  z-index: -1
+  background-repeat: no-repeat
+.container
+  //
+  width: 100%
+  position: relative
+
+.bg
+  background-image: url("/Курс web-разработчик/work-8/imagine/woman-no-tooths.png")
+  height: 780px
+  float: right
+  width: 30%
+  //position: absolute
+  //right: 132px
+  //bottom: -35px
+  //background-position-x: right
+  background-repeat: no-repeat
+  overflow: auto
+  z-index: 0
+  background-size: 100% auto
+  transform: translateX(-126px) translateY(36px)
+  //&:hover
+    height: 100%
+    width: 30%
+    //position: absolute
+    //right: 132px
+    //bottom: -35px
+    background-image: url("/Курс web-разработчик/work-8/imagine/woman-yes-tooths.png")
+    background-position-x: right
+    background-repeat: no-repeat
+  &::befor
+    content: ''
+    width: 100%
+
+.main
+  //margin-left: 387px
+  padding-top: 181px
+  width: 1140px
+  margin: auto
+
+  img
+    position: relative
+    float: right
+    top: -146px
+    left: -131px
+  &__header 
+    h1
+      font-size: 60px
+      margin: 0
+      margin-left: -1px
+      font-weight: bold
+      color: #7c6db0
+      position: relative
+      left: 0px
+      top: 0px
+      line-height: 59px
+
+  &__header_help
+    position: relative
+    height: 70px
+    width: 409px
+    background-color: #7f70b1
+    color: #ffffff
+    text-align: center
+    font-weight: bold
+    font-size: 36px
+    margin-top: 38px
+    margin-left: 2px
+    span
+      position: relative
+      top: 7px
+      left: 1px
+  &__part
+    padding-top: 94px
+    padding-bottom: 118px
+    height: 60px
+  &__text
+    font-size: 22px
+    width: 282px
+    font-family: 'Roboto', sans-serif
+    font-weight: 300
+    float: left
+    line-height: 1.4
+    margin-left: -5px
+    font-kerning: normal
+    //letter-spacing: 0.5px
+.icon
+  float: left
+  position: relative
+  left: 130px
+  top: 145px
+  margin-right: 39px
+  margin-left: 10px
+
+.btn
+  height: 80px
+  width: 360px
+  margin-right: 23px
+  margin-left: 4px
+  border:
+    style: none
+  background: linear-gradient(to right, $button__color, #01b3e0)
+  font:
+    family: 'Roboto Slab', serif
+    size: 22px
+    weight: bold
+  color: #ffffff
+  margin-top: 60px
+  text-align: center
+  margin-bottom: 60px
+  box-shadow: (1px 1px 10px lighten($button__color, 30))
+  z-index: 1
+  span
+    position: relative
+    left: 6px
+    top: -3px
+.btn2
+  //margin-left: -3px
+  background: transparent
+  border:
+    style: solid
+    color: $button__color
+  color: #01b3e0
+  box-shadow: none
+  span
+    position: relative
+    left: 0
+    top: -3px

@@ -1,0 +1,180 @@
+$BG_color: #c1f0f3
+$button__color: #01c4e0
+  
+*
+  box-sizing: border-box
+body
+  margin: 0
+  padding: 0
+  font-family: 'Roboto Slab'
+@media (min-width: 1200px)
+  .container
+    position: relative
+    background: linear-gradient(to right, $BG_color, #ffffff)
+    display: flex
+    flex-direction: row-reverse
+    justify-content: space-around
+    overflow: hidden
+
+
+    .bg__img
+      margin-top: 35px
+      margin-right: 114px
+      
+    .main
+      margin-left: 372px
+      margin-top: -5px
+      max-width: 1140px
+
+      &__header
+      
+        h1
+          font-size: 60px
+          margin: 0
+          font-weight: bold
+          color: #7c6db0 
+          line-height: 59px
+          padding-top: 190px
+          padding-bottom: 30px
+          transform: translateY(-3px) translateX(-3px)
+          //margin-left: -1px
+          //position: relative
+          //left: 0px
+          //top: 0px
+      &__header_help
+        //position: relative
+        transform: translateY(4px)
+        height: 70px
+        width: 409px
+        display: flex
+        justify-content: center
+        align-items: center
+        background-color: #7f70b1
+        color: #ffffff
+        text-align: center
+        font-weight: bold
+        font-size: 36px
+        span
+          padding-bottom: 9px
+      &__part
+        display: flex
+        margin-top: 94px
+        padding-bottom: 118px
+        .icon
+          margin-left: 8px
+          transform: translateY(4px) translateX(-2px)
+        .main__text
+          margin-left: 36px
+          font-family: 'Roboto', sans-serif
+          font-weight: 300
+          font-size: 22px
+          transform: translateY(5px)
+          line-height: 1.4
+      &__button
+        display: flex
+      .btn
+        height: 80px
+        width: 360px
+        margin-right: 30px
+        padding: 0
+        border:
+          style: none
+        background: linear-gradient(to right, $button__color, #01b3e0)
+        font:
+          family: 'Roboto Slab', sans-serif
+          size: 22px
+          weight: bold
+        color: #ffffff
+        text-align: center
+        box-shadow: (1px 1px 10px lighten($button__color, 30))
+      .btn2
+        background: transparent
+        border:
+          style: solid
+          color: $button__color
+        color: #01b3e0
+        box-shadow: none
+
+@media (max-width: 1199px)
+  .container
+    width: 100%
+    position: relative
+    background: linear-gradient(to right, $BG_color, #ffffff)
+    display: flex
+    flex-direction: row-reverse
+  
+    //justify-content: center
+  
+  .bg__img
+    margin-top: 35px
+    margin-right: auto
+  
+
+  .main
+    margin: 0 auto
+    max-width: 1199px
+    &__header
+      
+      
+      h1
+        font-size: 34px
+        margin: 0
+        font-weight: bold
+        color: #7c6db0 
+        line-height: 59px
+        padding-top: 50px
+        padding-bottom: 10px
+        //transform: translateY(-3px) translateX(-3px)
+    &__header_help
+      position: relative
+      //transform: translateY(4px)
+      height: 35px
+      width: 225px
+      background-color: #7f70b1
+      color: #ffffff
+      text-align: center
+      font-weight: bold
+      font-size: 20px
+      padding-top: 3px
+    &__part
+      display: flex
+      margin-top: 30px
+      padding-bottom: 40px
+      .icon
+        margin-left: 8px
+        transform: translateY(4px) translateX(-2px)
+      .main__text
+        margin-left: 18px
+        font-family: 'Roboto', sans-serif
+        font-weight: 300
+        font-size: 18px
+        transform: translateY(5px)
+        line-height: 1.4
+    &__button
+      display: flex
+      flex-direction: column
+
+  .btn
+    display: block
+    height: 40px
+    width: 220px
+    margin-top: 15px
+    padding: 0
+    border:
+      style: none
+    background: linear-gradient(to right, $button__color, #01b3e0)
+    font:
+      family: 'Roboto Slab', sans-serif
+      size: 18px
+      weight: bold
+    color: #ffffff
+    text-align: center
+    box-shadow: (1px 1px 10px lighten($button__color, 30))
+  .btn2
+    background: transparent
+    border:
+      style: solid
+      color: $button__color
+    color: #01b3e0
+    box-shadow: none
+    margin-bottom: 12px

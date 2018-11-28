@@ -1,0 +1,41 @@
+.produce
+  .container
+    .row
+      padding-bottom: 25px
+  &_header
+    text-align: center
+    margin-top: 55px
+    margin-bottom: 31px
+    h1
+      font-size: 27px
+      font-weight: bold
+      color: #313131
+      text-transform: uppercase
+      line-height: 25px
+      margin-bottom: 12px
+  &_content
+    height: 392px
+    margin-bottom: 35px
+    &_img
+      height: 275px
+      overflow: hidden
+    &_button
+      text-align: center
+    &_header
+      font-size: 20px
+      font-weight: 400
+      color: #313131
+.after::after
+      content: ''
+      position: absolute
+      display: block
+      top: 38px
+      left: 50%
+      transform: translateX(-50%)
+      z-index: 1
+      height: 6px
+      width: 46px
+      background: url(../img/header_way.png) center no-repeat
+      background-size: contain
+      text-align: center
+
