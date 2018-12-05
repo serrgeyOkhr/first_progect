@@ -24,12 +24,12 @@ $('button').click(function (e) {
 $('button').dblclick(function (e) { 
   $(this).addClass('active');
 });
-$('.second_ul li').css('display','none')
+$('.menu').css('display','none')
 $('h3, .menu').mouseenter(function () { 
-  $('.second_ul li').css('display','block')
+  $('.menu').css('display','block')
   // $('.second_ul li').css('border','solid 1px red')
 });
 $('h3, .menu').mouseleave(function () { 
-  $('.second_ul li').css('display','none')
+  $('.menu').css('display','none')
   // $('.second_ul li').css('border','none')
 });

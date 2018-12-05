@@ -9,3 +9,10 @@ h3{
 	margin: 0;
 	padding: 0;
 }
+
+.menu{
+	position: absolute;
+	background: #fff;
+	width: 300px;
+	border: solid 1px #ccc
+}

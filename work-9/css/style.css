@@ -1063,6 +1063,112 @@ header .container {
   top: 240px;
 }
 
+.more_popup {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 100%;
+  z-index: 1000;
+}
+
+.more_popup_wrap {
+  height: 93%;
+  width: 1140px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: #fff;
+}
+
+.more_popup_wrap_form {
+  background-color: #ccc;
+  position: relative;
+}
+
+.more_popup_wrap_form_header {
+  text-transform: uppercase;
+  font-size: 21px;
+  text-align: center;
+  line-height: 68px;
+  background-color: #ff9d00;
+  color: #ffffff;
+}
+
+.more_popup_wrap_form_close {
+  position: absolute;
+  top: -30px;
+  right: -15px;
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.more_popup_wrap_form_main_text {
+  background-color: #fff;
+  height: 379px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.more_popup_wrap_form_main_text p {
+  display: block;
+  margin-left: 38px;
+  margin-top: 0;
+  padding-top: 34px;
+  margin-right: 39px;
+  text-align: justify;
+  margin-bottom: 44px;
+}
+
+.more_popup_wrap_form_main_text p span {
+  font-weight: bold;
+}
+
+.tabl .container {
+  width: 1063px;
+}
+
+.tabl .container .row {
+  margin-right: -35px;
+}
+
+.tabl .container .row .col-4 {
+  padding: 0;
+}
+
+.tabl_card {
+  height: 103px;
+  width: 342px;
+  background-color: #fff;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.tabl_card_last {
+  justify-self: flex-end;
+}
+
+.tabl_card img {
+  display: inline-block;
+}
+
+.tabl_card_text {
+  display: inline;
+  text-align: center;
+  line-height: 103px;
+  font-size: 17px;
+}
+
+.tabl_card_icon {
+  margin-left: 20px;
+  vertical-align: middle;
+  margin-right: 13px;
+}
+
 .extra_div_slider {
   width: 100%;
   height: 800px;
